@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "refactoring-session-260723"
+version = "0.1.0"
+description = ""
+authors = ["Anatolii Burtsev <ab.canada.world@gmail.com>"]
+readme = "README.md"
+packages = [{include = "refactoring_session_260723"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest-watch = "^4.2.0"
+pytest = "^7.4.0"
+hypothesis = "^6.82.0"
+numpy = "^1.25.1"
+lenses = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
